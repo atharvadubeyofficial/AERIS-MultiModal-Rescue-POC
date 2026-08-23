@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Models
+*.pt
+*.pth
+*.onnx
+
+# Large datasets
+data/rgb/*
+data/thermal/*
+data/sonar/*
+data/scenarios/*
+
+# Demo videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated outputs
+outputs/*
+logs/*
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
